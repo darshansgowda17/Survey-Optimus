@@ -29,10 +29,10 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
+  --bs-primary: green;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #0df08a;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -68,8 +68,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-color: #0dfdb1;
+  --bs-link-hover-color: #2a8f67;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -101,7 +101,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: green;
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
@@ -2808,8 +2808,8 @@ textarea.form-control-lg {
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
-  --bs-btn-color: #212529;
-  --bs-btn-bg: transparent;
+  --bs-btn-color: #44c597;
+  --bs-btn-bg: #44c597;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: 0.375rem;
