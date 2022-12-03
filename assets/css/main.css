@@ -765,7 +765,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background:url("../img/cta-bg.jpg") center center;
+  background:url("../img/cta-bg.png") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -2226,4 +2226,37 @@ section {
   #texty {
    color: #464646;
 }
+}
+
+#1111 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#2222 {
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
+#3333 {
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+}
+#4444 {
+	bottom: 0%;
+	right: 0%;
+	position: absolute;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
