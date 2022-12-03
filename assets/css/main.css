@@ -20,7 +20,7 @@
 :root {
   --color-default: #2b180d;
   --color-primary:   #76BA1B;
-  --color-secondary:  #76BA1B;
+  --color-secondary:  #464646;
 }
 
 /* Smooth scroll behavior */
@@ -494,7 +494,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(27, 47, 69, 0.7);
+    background: #76ba1b;
     z-index: 9996;
   }
 }
@@ -517,7 +517,7 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background: #fff;
     top: 0;
     bottom: 0;
   }
@@ -2190,4 +2190,40 @@ section {
   text-align: center;
   font-size: 13px;
   color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 600px) {
+  #testt {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #testt {
+   color: #464646;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  #test {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #test {
+   color: #464646;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  #texty {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #texty {
+   color: #464646;
+}
 }

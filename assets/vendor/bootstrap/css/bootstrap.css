@@ -10877,4 +10877,40 @@ textarea.form-control-lg {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #testt {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #testt {
+   color: #464646;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  #test {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #test {
+   color: #464646;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  #texty {
+   color: white;
+}
+}
+
+@media only screen and (min-width: 600px) {
+  #texty {
+   color: #464646;
+}
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
