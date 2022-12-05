@@ -505,7 +505,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../../assets/img/hero-bg.jpg") top center;
+  background: url("C:/Users/chand/OneDrive/Desktop/Survey-Optimus/assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -526,7 +526,7 @@ section {
 
 @media (max-width: 1034px) {
   .hero:before {
-    background:  #1FD496;
+    background:  rgba(27, 47, 69, 0.7);
   }
 }
 
@@ -2214,17 +2214,6 @@ section {
   #test {
    color: #464646;
 }
-}
-
-@media only screen and (max-width: 600px) {
-  #texty {
-   color: white;
-}
-}
-
-@media only screen and (min-width: 600px) {
-  #texty {
-   color: #464646;
 }
 }
 
